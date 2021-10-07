@@ -1,0 +1,277 @@
+Enter file name:
+inp_1.txt0-Print Grid
+1-Print all paths
+2-Print all possible paths between two entities
+3-Print shortest path between two entities
+4-Print possible target&source types
+5-Print possible target&source types sorted
+6-Exit
+>0
+* * a * * * 
+*   *   * * 
+b *   * @ * 
+*   *     * 
+@   *   *   
+* * * b * a 
+0-Print Grid
+1-Print all paths
+2-Print all possible paths between two entities
+3-Print shortest path between two entities
+4-Print possible target&source types
+5-Print possible target&source types sorted
+6-Exit
+>1
+--Path Info--
+Starts at: 0 2 'a'
+Ends at: 2 0 'b'
+ID: a1
+Length: 6
+Path:
+(0,2)(1,3)(2,2)(2,4)(3,1)(3,3)
+* * # * * * 
+*   * # * * 
+b * # * # * 
+* # * #   * 
+@   *   *   
+* * * b * a 
+--Path Info--
+Starts at: 0 2 'a'
+Ends at: 2 4 '@'
+ID: a1
+Length: 2
+Path:
+(0,2)(1,3)
+* * # * * * 
+*   * # * * 
+b *   * @ * 
+*   *     * 
+@   *   *   
+* * * b * a 
+--Path Info--
+Starts at: 0 2 'a'
+Ends at: 4 0 '@'
+ID: a1
+Length: 6
+Path:
+(0,2)(1,3)(2,2)(2,4)(3,1)(3,3)
+* * # * * * 
+*   * # * * 
+b * # * # * 
+* # * #   * 
+@   *   *   
+* * * b * a 
+--Path Info--
+Starts at: 0 2 'a'
+Ends at: 5 3 'b'
+ID: a1
+Length: 6
+Path:
+(0,2)(1,3)(2,4)(3,3)(3,4)(4,3)
+* * # * * * 
+*   * # * * 
+b *   * # * 
+*   * # # * 
+@   * # *   
+* * * b * a 
+--Path Info--
+Starts at: 0 2 'a'
+Ends at: 5 5 'a'
+ID: a1
+Length: 6
+Path:
+(0,2)(1,3)(2,4)(3,3)(3,4)(4,5)
+* * # * * * 
+*   * # * * 
+b *   * # * 
+*   * # # * 
+@   *   * # 
+* * * b * a 
+--Path Info--
+Starts at: 2 0 'b'
+Ends at: 0 2 'a'
+ID: b1
+Length: 7
+Path:
+(1,3)(2,0)(2,2)(2,4)(3,1)(3,3)(3,4)
+* * a * * * 
+*   * # * * 
+# * # * # * 
+* # * # # * 
+@   *   *   
+* * * b * a 
+--Path Info--
+Starts at: 2 0 'b'
+Ends at: 2 4 '@'
+ID: b1
+Length: 5
+Path:
+(2,0)(2,2)(3,1)(3,3)(3,4)
+* * a * * * 
+*   *   * * 
+# * # * @ * 
+* # * # # * 
+@   *   *   
+* * * b * a 
+--Path Info--
+Starts at: 2 0 'b'
+Ends at: 4 0 '@'
+ID: b1
+Length: 2
+Path:
+(2,0)(3,1)
+* * a * * * 
+*   *   * * 
+# *   * @ * 
+* # *     * 
+@   *   *   
+* * * b * a 
+--Path Info--
+Starts at: 2 0 'b'
+Ends at: 5 3 'b'
+ID: b1
+Length: 6
+Path:
+(2,0)(2,2)(3,1)(3,3)(3,4)(4,3)
+* * a * * * 
+*   *   * * 
+# * # * @ * 
+* # * # # * 
+@   * # *   
+* * * b * a 
+--Path Info--
+Starts at: 2 0 'b'
+Ends at: 5 5 'a'
+ID: b1
+Length: 6
+Path:
+(2,0)(2,2)(3,1)(3,3)(3,4)(4,5)
+* * a * * * 
+*   *   * * 
+# * # * @ * 
+* # * # # * 
+@   *   * # 
+* * * b * a 
+--Path Info--
+Starts at: 2 4 '@'
+Ends at: 0 2 'a'
+ID: @1
+Length: 9
+Path:
+(1,1)(1,3)(2,0)(2,2)(2,4)(2,4)(3,1)(3,3)(3,4)
+* * a * * * 
+* # * # * * 
+# * # * # * 
+* # * # # * 
+@   *   *   
+* * * b * a 
+--Path Info--
+Starts at: 2 4 '@'
+Ends at: 2 0 'b'
+ID: @1
+Length: 7
+Path:
+(1,3)(2,2)(2,4)(2,4)(3,1)(3,3)(3,4)
+* * a * * * 
+*   * # * * 
+b * # * # * 
+* # * # # * 
+@   *   *   
+* * * b * a 
+--Path Info--
+Starts at: 2 4 '@'
+Ends at: 4 0 '@'
+ID: @1
+Length: 7
+Path:
+(1,3)(2,2)(2,4)(2,4)(3,1)(3,3)(3,4)
+* * a * * * 
+*   * # * * 
+b * # * # * 
+* # * # # * 
+@   *   *   
+* * * b * a 
+--Path Info--
+Starts at: 2 4 '@'
+Ends at: 5 3 'b'
+ID: @1
+Length: 4
+Path:
+(2,4)(3,3)(3,4)(4,3)
+* * a * * * 
+*   *   * * 
+b *   * # * 
+*   * # # * 
+@   * # *   
+* * * b * a 
+--Path Info--
+Starts at: 2 4 '@'
+Ends at: 5 5 'a'
+ID: @1
+Length: 4
+Path:
+(2,4)(3,3)(3,4)(4,5)
+* * a * * * 
+*   *   * * 
+b *   * # * 
+*   * # # * 
+@   *   * # 
+* * * b * a 
+--Path Info--
+Starts at: 4 0 '@'
+Ends at: 0 2 'a'
+ID: @2
+Length: 9
+Path:
+(1,3)(2,2)(2,4)(3,1)(3,3)(3,4)(4,0)(4,0)(4,1)
+* * a * * * 
+*   * # * * 
+b * # * # * 
+* # * # # * 
+# # *   *   
+* * * b * a 
+--Path Info--
+Starts at: 4 0 '@'
+Ends at: 2 0 'b'
+ID: @2
+Length: 11
+Path:
+(0,2)(1,1)(1,3)(2,2)(2,4)(3,1)(3,3)(3,4)(4,0)(4,0)(4,1)
+* * # * * * 
+* # * # * * 
+b * # * # * 
+* # * # # * 
+# # *   *   
+* * * b * a 
+--Path Info--
+Starts at: 4 0 '@'
+Ends at: 2 4 '@'
+ID: @2
+Length: 7
+Path:
+(2,2)(3,1)(3,3)(3,4)(4,0)(4,0)(4,1)
+* * a * * * 
+*   *   * * 
+b * # * @ * 
+* # * # # * 
+# # *   *   
+* * * b * a 
+--Path Info--
+Starts at: 4 0 '@'
+Ends at: 5 3 'b'
+ID: @2
+Length: 8
+Path:
+(2,2)(3,1)(3,3)(3,4)(4,0)(4,0)(4,1)(4,3)
+* * a * * * 
+*   *   * * 
+b * # * @ * 
+* # * # # * 
+# # * # *   
+* * * b * a 
+--Path Info--
+Starts at: 4 0 '@'
+Ends at: 5 5 'a'
+ID: @2
+Length: 8
+Path:
+(2,2)(3,1)(3,3
